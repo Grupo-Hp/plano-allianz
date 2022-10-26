@@ -24,22 +24,22 @@ export default function Nav(props) {
                             <div className="hidden xl:block">
                                 <div className="ml-10 flex items-baseline space-x-10 uppercase">
                                     <a href="./"
-                                        className=' font-medium hover:text-primary cursor-pointer text-white'
+                                        className=' font-medium hover:text-gray-600 cursor-pointer text-primary'
                                     >
                                         inicio
                                     </a>
                                     <a href="./contato"
-                                        className=' font-medium hover:text-primary cursor-pointer text-white'
+                                        className=' font-medium hover:text-gray-600 cursor-pointer text-primary'
                                     >
                                         plano individual
                                     </a>
                                     <a href="./contato"
-                                        className=' font-medium hover:text-primary cursor-pointer text-white'
+                                        className=' font-medium hover:text-gray-600 cursor-pointer text-primary'
                                     >
                                         plano familiar
                                     </a>
                                     <a href="./contato"
-                                        className=' font-medium hover:text-primary cursor-pointer text-white'
+                                        className=' font-medium hover:text-gray-600 cursor-pointer text-primary'
                                     >
                                         plano empresarial
                                     </a>
@@ -49,7 +49,7 @@ export default function Nav(props) {
                                         smooth={true}
                                         offset={50}
                                         duration={1000}
-                                        className=' font-medium hover:text-primary cursor-pointer text-white'
+                                        className=' font-medium hover:text-gray-600 cursor-pointer text-primary'
                                     >
                                         preço rápido
                                     </Link>
@@ -60,7 +60,7 @@ export default function Nav(props) {
                             <button
                                 onClick={() => setIsOpen(!isOpen)}
                                 type="button"
-                                className="inline-flex items-center justify-center p-2 rounded-md text-white focus:ring-offset-2"
+                                className="inline-flex items-center justify-center p-2 rounded-md text-primary focus:ring-offset-2"
                                 aria-controls="mobile-menu"
                                 aria-expanded="false"
                             >
