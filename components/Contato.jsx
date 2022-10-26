@@ -105,19 +105,19 @@ export default function Contato(props) {
 
                             <div>
                                 <input type="text" className="rounded-xl col-span-2 md:col-span-1 form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-primary  transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-primary-20 focus:outline-none" {...register('nome')} placeholder="Digite seu nome*" />
-                                <p className="text-apoio ml-3 mt-1">{errors?.nome?.message}</p>
+                                <p className="text-red-500 ml-3 mt-1">{errors?.nome?.message}</p>
                             </div>
 
                             <div>
                                 <input type="text" className="rounded-xl col-span-2 md:col-span-1 form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-primary  transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-primary-20 focus:outline-none" {...register('sobrenome')} placeholder="Digite seu sobrenome*" />
-                                <p className="text-apoio ml-3 mt-1">{errors?.sobrenome?.message}</p>
+                                <p className="text-red-500 ml-3 mt-1">{errors?.sobrenome?.message}</p>
                             </div>
                         </div>
 
 
                         <div className="form-group mb-6">
                             <input type="email" className="rounded-xl form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-primary  transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-primary-20 focus:outline-none" {...register('email')} placeholder="Digite seu e-mail*" />
-                            <p className="text-apoio ml-3 mt-1">{errors?.email?.message}</p>
+                            <p className="text-red-500 ml-3 mt-1">{errors?.email?.message}</p>
                         </div>
 
 
@@ -125,12 +125,12 @@ export default function Contato(props) {
 
                             <div>
                                 <input type="text" className="rounded-xl col-span-2 md:col-span-1 form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-primary  transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-primary-20 focus:outline-none" {...register('telefone')} placeholder="Digite seu principal telefone*" />
-                                <p className="text-apoio ml-3 mt-1">{errors?.telefone?.message}</p>
+                                <p className="text-red-500 ml-3 mt-1">{errors?.telefone?.message}</p>
                             </div>
 
                             <div>
                                 <input type="text" className="rounded-xl col-span-2 md:col-span-1 form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-primary  transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-primary-20 focus:outline-none" {...register('cidade')} placeholder="Digite a cidade onde mora*" />
-                                <p className="text-apoio ml-3 mt-1">{errors?.cidade?.message}</p>
+                                <p className="text-red-500 ml-3 mt-1">{errors?.cidade?.message}</p>
                             </div>
 
                         </div>
@@ -146,7 +146,7 @@ export default function Contato(props) {
                                         <option value="Empresarial">Empresarial</option>
                                         <option value="Odontológico">Odontológico</option>
                                     </select>
-                                    <p className="text-apoio ml-3 mt-1">{errors?.tipo?.message}</p>
+                                    <p className="text-red-500 ml-3 mt-1">{errors?.tipo?.message}</p>
                                 </div>
                             </div>
                             <div className="flex col-span-2 md:col-span-1">
@@ -158,14 +158,14 @@ export default function Contato(props) {
                                         <option value="Telefone">Telefone</option>
                                         <option value="E-mail">E-mail</option>
                                     </select>
-                                    <p className="text-apoio ml-3 mt-1">{errors?.forma?.message}</p>
+                                    <p className="text-red-500 ml-3 mt-1">{errors?.forma?.message}</p>
                                 </div>
                             </div>
                         </div>
 
 
                         <div className="form-group mb-6">
-                            <button type="submit" className="w-full px-6 py-2.5 font-medium text-lg border bg-primary text-white rounded-xl leading-tight uppercase hover:bg-primary-10 hover:bg-apoio transition duration-300 ease-in-out">{props.button}</button>
+                            <button type="submit" className="w-full px-6 py-2.5 font-medium text-lg border bg-primary text-white rounded-xl leading-tight uppercase hover:bg-secondary transition duration-300 ease-in-out">{props.button}</button>
                         </div>
                     </form>
                 </div>
