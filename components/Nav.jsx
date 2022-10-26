@@ -17,7 +17,7 @@ export default function Nav(props) {
                                     //layout='responsive'
                                     width={160}
                                     height={60}
-                                    alt="Logo da Intermédica saúde"
+                                    alt="Logo da Allianz saúde"
 
                                 /></a>
                             </div>

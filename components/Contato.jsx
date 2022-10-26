@@ -56,7 +56,7 @@ export default function Contato(props) {
     const { register, handleSubmit, formState: { errors } } = useForm({
         resolver: yupResolver(shape),
         defaultValues: {
-            empresa: 'Intermédica',
+            empresa: 'Allianz',
             imagem: 'Hpcap',
             site: 'https://www.hpcap.com.br/',
             contact: 'planointermedicario',
@@ -72,7 +72,7 @@ export default function Contato(props) {
                     <p className='text-xl text-secondary'>Todos os planos de saúde amil e simulador de planos de saúde online</p>
                 </div>
                 <div className="text-center sm:w-2/3 m-auto col-span-2 lg:col-span-1 text-primary">
-                    <h2 className='text-4xl font-bold mb-10 '>A Intermédica tem o plano certo para você viver o seu melhor.</h2>
+                    <h2 className='text-4xl font-bold mb-10 '>A Allianz tem o plano certo para você viver o seu melhor.</h2>
                     <p className='text-2xl text-secondary'>Planos com flexibilidade para o cuidado certo</p>
                     {/* <div className='flex place-content-evenly my-10'>
                         <div className='mx-5'>
