@@ -18,13 +18,13 @@ export default function Header() {
                                 <li><p className="text-xl lg:text-2xl">Cotação com nossa equipe e 100% Online.</p></li>
                             </ul>
                             <div className="grid sm:flex gap-x-4 text-center">
-                                <a href="./contato" className="mt-2 px-10 cursor-pointer py-3 font-medium text-md text-white border-2 hover:border-secondary border-white rounded-xl leading-tight uppercase hover:bg-secondary transition duration-300 ease-in-out">simulador online</a>
+                                <a href="./contato" className="mt-2 px-10 cursor-pointer py-3 font-medium text-md text-white border-2 hover:border-primary border-white rounded-xl leading-tight uppercase hover:bg-primary transition duration-300 ease-in-out">simulador online</a>
                                 <Link
                                     to="contato"
                                     smooth={true}
                                     offset={50}
                                     duration={1000}
-                                    className="mt-2 px-10 cursor-pointer py-3 font-medium text-md border-2 border-white text-white hover:border-secondary hover:bg-secondary rounded-xl leading-tight uppercase transition duration-300 ease-in-out"
+                                    className="mt-2 px-10 cursor-pointer py-3 font-medium text-md border-2 border-white text-white hover:border-primary hover:bg-primary rounded-xl leading-tight uppercase transition duration-300 ease-in-out"
                                 >
                                     preço rápido
                                 </Link>

@@ -16,7 +16,7 @@ export default function Info3() {
     return (
         <div className='grid grid-cols-2 py-16 text-center md:text-left'>
             <div className="w-3/4 mx-auto col-span-2 xl:col-span-1">
-                <p className='font-semibold tracking-widest text-secondary'>Somos Líderes de Vendas no Rio de Janeiro</p>
+                <p className='font-semibold tracking-widest text-primary'>Somos Líderes de Vendas no Rio de Janeiro</p>
                 <h1 className="text-3xl xl:text-5xl font-light py-6 text-primary">Encontre o Plano Ideal para sua Família!</h1>
                 <p className='text-gray-600'>Temos uma equipe treinada com mais de 10 anos de experiência e te ajudamos a escolher o plano de saúde perfeito.</p>
                 <div className="grid grid-cols-2 gap-4">

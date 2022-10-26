@@ -13,10 +13,10 @@ export default function Nav(props) {
                         <div className="flex items-center mx-20 justify-between w-full">
                             <div className="flex">
                                 <a href="./"><Image
-                                    src="/images/intermedica-logo.png"
+                                    src="/images/allianz-logo.png"
                                     //layout='responsive'
                                     width={160}
-                                    height={60}
+                                    height={45  }
                                     alt="Logo da Allianz saúde"
 
                                 /></a>
@@ -24,22 +24,22 @@ export default function Nav(props) {
                             <div className="hidden xl:block">
                                 <div className="ml-10 flex items-baseline space-x-10 uppercase">
                                     <a href="./"
-                                        className=' font-medium hover:text-secondary cursor-pointer text-white'
+                                        className=' font-medium hover:text-primary cursor-pointer text-white'
                                     >
                                         inicio
                                     </a>
                                     <a href="./contato"
-                                        className=' font-medium hover:text-secondary cursor-pointer text-white'
+                                        className=' font-medium hover:text-primary cursor-pointer text-white'
                                     >
                                         plano individual
                                     </a>
                                     <a href="./contato"
-                                        className=' font-medium hover:text-secondary cursor-pointer text-white'
+                                        className=' font-medium hover:text-primary cursor-pointer text-white'
                                     >
                                         plano familiar
                                     </a>
                                     <a href="./contato"
-                                        className=' font-medium hover:text-secondary cursor-pointer text-white'
+                                        className=' font-medium hover:text-primary cursor-pointer text-white'
                                     >
                                         plano empresarial
                                     </a>
@@ -49,7 +49,7 @@ export default function Nav(props) {
                                         smooth={true}
                                         offset={50}
                                         duration={1000}
-                                        className=' font-medium hover:text-secondary cursor-pointer text-white'
+                                        className=' font-medium hover:text-primary cursor-pointer text-white'
                                     >
                                         preço rápido
                                     </Link>
@@ -113,10 +113,10 @@ export default function Nav(props) {
                     leaveTo="opacity-0 scale-95"
                 >
                     {(ref) => (
-                        <div className="md:hidden uppercase bg-secondary" id="mobile-menu">
+                        <div className="md:hidden uppercase bg-primary" id="mobile-menu">
                             <div
                                 ref={ref}
-                                className="bg-secondary pt-2 pb-3 space-y-1"
+                                className="bg-primary pt-2 pb-3 space-y-1"
                             >
                                 <Link
 
